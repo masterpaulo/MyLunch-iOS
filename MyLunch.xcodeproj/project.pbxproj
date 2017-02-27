@@ -14,6 +14,7 @@
 		3ED59AE91E5FCA200015114F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED59AE71E5FCA200015114F /* LaunchScreen.storyboard */; };
 		3ED59AF41E5FCA200015114F /* MyLunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED59AF31E5FCA200015114F /* MyLunchTests.swift */; };
 		3ED59AFF1E5FCA200015114F /* MyLunchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED59AFE1E5FCA200015114F /* MyLunchUITests.swift */; };
+		3ED59B0D1E5FD60C0015114F /* SelectPhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED59B0C1E5FD60C0015114F /* SelectPhotosController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3ED59AFA1E5FCA200015114F /* MyLunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLunchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED59AFE1E5FCA200015114F /* MyLunchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLunchUITests.swift; sourceTree = "<group>"; };
 		3ED59B001E5FCA200015114F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ED59B0C1E5FD60C0015114F /* SelectPhotosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectPhotosController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3ED59AE51E5FCA200015114F /* Assets.xcassets */,
 				3ED59AE71E5FCA200015114F /* LaunchScreen.storyboard */,
 				3ED59AEA1E5FCA200015114F /* Info.plist */,
+				3ED59B0C1E5FD60C0015114F /* SelectPhotosController.swift */,
 			);
 			path = MyLunch;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					3ED59ADA1E5FCA1F0015114F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y9XY5ZV3YG;
 						ProvisioningStyle = Automatic;
 					};
 					3ED59AEE1E5FCA200015114F = {
@@ -260,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ED59AE11E5FCA1F0015114F /* ViewController.swift in Sources */,
+				3ED59B0D1E5FD60C0015114F /* SelectPhotosController.swift in Sources */,
 				3ED59ADF1E5FCA1F0015114F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y9XY5ZV3YG;
 				INFOPLIST_FILE = MyLunch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ramos.MyLunch;
@@ -424,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y9XY5ZV3YG;
 				INFOPLIST_FILE = MyLunch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ramos.MyLunch;
